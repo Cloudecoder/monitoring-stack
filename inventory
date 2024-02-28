@@ -1,3 +1,5 @@
 [prometheus]
 192.168.0.103
+
+[node-exporters]
 192.168.0.102

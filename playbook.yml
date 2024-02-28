@@ -26,3 +26,10 @@
   become_method: sudo
   roles:
     - grafana
+
+- hosts: node-exporters
+  become: yes
+  become_user: root
+  become_method: sudo
+  roles:
+    - prometheus_node_exporter   
